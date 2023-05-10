@@ -1,0 +1,92 @@
+.contenedor{
+    display: flex;
+    background-color: grey;
+    align-items: center;
+    justify-content: center;
+}
+
+.cuadrado{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.circulo{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: black;
+    margin: 7px;
+}
+
+/*----------------------------------------------------*/
+.lado_1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*----------------------------------------------------*/
+.lado_2{
+    display: flex;
+    justify-content: space-between;
+}
+.circulo_2{
+    display: flex;
+    align-self: flex-end;
+}
+
+/*----------------------------------------------------*/
+.lado_3{
+    display: flex;
+    justify-content: space-between;
+}
+.circulo_4{
+    display: flex;
+    align-self: center;
+}
+.circulo_5{
+    align-self: flex-end;
+}
+
+
+/*----------------------------------------------------*/
+.lado_4{
+    justify-content: space-between;
+}
+.inferior{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.superior{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+/*----------------------------------------------------*/
+.lado_5{
+    justify-content: space-between;
+}
+.centro{
+    display: flex;
+    align-items: center;
+}
+
+/*----------------------------------------------------*/
+.lado_6{
+    justify-content: space-between;
+
+}
+.inferior1, .centro1, .superior1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
